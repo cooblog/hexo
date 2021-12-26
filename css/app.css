@@ -220,27 +220,27 @@
 }
 .i-volume-off:before,
 .player-info .volume.off::before {
-  content: "\e61e";
+  content: "\e624";
 }
 .i-volume-on:before,
 .player-info .volume.on::before {
-  content: "\e62c";
+  content: "\e622";
 }
 .i-circle-play:before,
 .player-info .play-pause::before {
-  content: "\e647";
+  content: "\e62f";
 }
 .i-forward:before,
 .player-info .forward::before {
-  content: "\e648";
+  content: "\e629";
 }
 .i-backward:before,
 .player-info .backward::before {
-  content: "\e649";
+  content: "\e623";
 }
 .i-circle-pause:before,
 .playing .player-info .play-pause::before {
-  content: "\e64a";
+  content: "\e62e";
 }
 .i-loop:before,
 .player-info .mode.loop::before {
@@ -345,10 +345,10 @@
   content: "\e69d";
 }
 .i-sun:before {
-  content: "\e6d1";
+  content: "\e600";
 }
 .i-moon:before {
-  content: "\e71e";
+  content: "\e69a";
 }
 .i-compress:before {
   content: "\ef82";
@@ -388,25 +388,25 @@
 }
 .i-music:before,
 #tool .player .music::before {
-  content: "\f059";
+  content: "\e645";
 }
 .i-pause:before,
 #tool.playing .player .play-pause::before {
-  content: "\f06a";
-}
-.i-comments:before {
-  content: "\ef7f";
+  content: "\e7c0";
 }
 .i-play:before,
 #tool .player .play-pause::before,
 .player-info ol >li.current::before {
-  content: "\f07f";
+  content: "\e6b9";
+}
+.i-comments:before {
+  content: "\ef7f";
 }
 .i-calendar-check:before {
   content: "\ef5b";
 }
 .i-angle-up:before {
-  content: "\ef1b";
+  content: "\e65f";
 }
 .i-facebook:before {
   content: "\f19d";
@@ -444,7 +444,7 @@
 }
 .i-angle-down:before,
 details[open] summary::before {
-  content: "\ef1a";
+  content: "\e660";
 }
 .i-calendar:before {
   content: "\e812";
@@ -464,7 +464,7 @@ details[open] summary::before {
   content: "\e759";
 }
 .i-angle-left:before {
-  content: "\ef19";
+  content: "\e661";
 }
 .i-arrow-circle-right:before,
 .md .note.default::before {
@@ -513,14 +513,14 @@ details[open] summary::before {
 }
 .i-angle-right:before,
 details summary::before {
-  content: "\ef1f";
+  content: "\e65e";
 }
 .i-arrow-down:before {
   content: "\ef25";
 }
 .i-arrow-up:before,
 .tabs .show-btn::before {
-  content: "\ef2a";
+  content: "\e63b";
 }
 .i-chart-area:before {
   content: "\ef64";
@@ -1365,8 +1365,8 @@ textarea {
 }
 @font-face {
   font-family: 'ic';
-  src: url("//at.alicdn.com/t/font_1832207_igi8uaupcus.eot");
-  src: url("//at.alicdn.com/t/font_1832207_igi8uaupcus.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.woff2") format('woff2'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.woff") format('woff'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.ttf") format('truetype'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.svg#ic") format('svg');
+  src: url("//at.alicdn.com/t/font_3063186_g5mtpm1lrwg.eot");
+  src: url("//at.alicdn.com/t/font_3063186_g5mtpm1lrwg.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_3063186_g5mtpm1lrwg.woff2") format('woff2'), url("//at.alicdn.com/t/font_3063186_g5mtpm1lrwg.woff") format('woff'), url("//at.alicdn.com/t/font_3063186_g5mtpm1lrwg.ttf") format('truetype'), url("//at.alicdn.com/t/font_3063186_g5mtpm1lrwg.svg#ic") format('svg');
 }
 .ic {
   font-family: "ic" !important;
@@ -2051,7 +2051,7 @@ main >.inner {
   line-height: 1.2;
 }
 #brand h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: 0.125rem;
 }
 #brand .artboard + h1 {
@@ -2093,7 +2093,7 @@ main >.inner {
 }
 @media (max-width: 413px) {
   #brand .artboard {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 #tool {
@@ -3866,6 +3866,7 @@ main >.inner {
 }
 #loading {
   background-color: var(--grey-1);
+  display: none;
 }
 .cat {
   position: relative;

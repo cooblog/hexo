@@ -1229,7 +1229,7 @@ const themeColorListener = function () {
           hideNeko();
         }
     }
-    transition(neko, 1, function() {
+    transition(neko, 0, function() {
       setTimeout(c, 210)
     })
   });
